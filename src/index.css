@@ -5,15 +5,19 @@
 .IB{
     border: solid 2px purple;
 }
-*{
-    font-family: 'poppins';
-}
-body {
+* {
   margin: 0;
-  height: 100vh;
+  padding: 0;
+  box-sizing: border-box; /* fondamentale per evitare overflow */
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
   background-color: black;
   background-image: url("/wallpaper.jpg");
-  background-size: cover;      /* riempie lo schermo */
-  background-position: center; /* centra l'immagine */
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+  overflow-x: hidden; /* evita scrollbar orizzontale */
 }
+
