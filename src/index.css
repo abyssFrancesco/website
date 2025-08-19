@@ -10,14 +10,11 @@
   padding: 0;
   box-sizing: border-box; /* fondamentale per evitare overflow */
   font-family: 'Poppins', sans-serif;
+  color: white;
 }
 
 body {
   background-color: black;
-  background-image: url("/wallpaper.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow-x: hidden; /* evita scrollbar orizzontale */
+
 }
 
