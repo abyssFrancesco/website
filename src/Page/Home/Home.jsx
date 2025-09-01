@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Navbar from "../../Components/NavBar/Navbar";
 import c from "../Home/../../assets/c.jpg";
+import Frame from "../../Components/Frame/Frame";
 
 function Home() {
   console.log("Home");
@@ -14,7 +15,7 @@ function Home() {
             <h1>Hello, Francesco here</h1>
           </div>
           <div className="box-d B">
-            <div className="img IB">
+            <div className="img">
               <img src={c} alt="" />
             </div>
             <div className="desc IB">
@@ -27,6 +28,9 @@ function Home() {
                 doloribus omnis corrupti praesentium. Recusandae, delectus!
               </p>
             </div>
+          </div>
+          <div className="frame">
+            <Frame></Frame>
           </div>
         </div>
       </div>
